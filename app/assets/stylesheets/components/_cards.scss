@@ -1,0 +1,19 @@
+.my-card {
+  width: 400px;
+  height: 160px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  }
+
+
+
+.my-cards {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cards-container {
+  display: inline-block;
+}

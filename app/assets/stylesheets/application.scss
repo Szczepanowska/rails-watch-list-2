@@ -10,3 +10,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "components/_banner.scss";
+@import "components/_button.scss";
+@import "components/_cards.scss";
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
