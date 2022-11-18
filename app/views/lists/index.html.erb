@@ -3,6 +3,7 @@
     <h1>Save any kind of movies</h1>
   </div>
 </div>
+
 <div class="container py-5">
   <div class="d-flex align-items-center justify-content-between mb-3">
     <h3 class="mb-0">My Lists</h3>
@@ -10,12 +11,9 @@
   </div>
   <div class="row">
     <% @lists.each do |list| %>
-      <div class="co-12 col-sm-6 col-md-4 mb-3">
         <%= link_to list_path(list), class:"text-decoration-none" do %>
             <%= list.name %>
-          </div>
         <% end %>
-      </div>
     <% end %>
   </div>
 </div>

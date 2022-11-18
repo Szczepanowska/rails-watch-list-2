@@ -1,19 +1,18 @@
-.my-card {
-  width: 400px;
-  height: 160px;
-  border-radius: 3px;
-  box-shadow: 0 0 5px rgb(230,230,230);
-  text-align: center;
-  }
 
-
-
-.my-cards {
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 448px;
   display: flex;
-  justify-content: space-between;
-
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.cards-container {
-  display: inline-block;
+.card-large {
+  height: 448px;
 }
