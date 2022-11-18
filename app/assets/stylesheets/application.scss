@@ -14,8 +14,15 @@
 @import "components/_button.scss";
 @import "components/_cards.scss";
 
+@import "tom-select/dist/css/tom-select.min.css";
+
+
 a {
   text-decoration: none;
   list-style: none;
-  color: whitesmoke;
+  color: rgb(116, 115, 115);
+}
+
+.poster img {
+  height: 300px;
 }
