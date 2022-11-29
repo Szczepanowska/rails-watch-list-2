@@ -1,9 +1,12 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
+    <div class="container">
+    <p>movies films popcorn screen cinema </p>
+    <%= link_to "Create a movie list", new_list_path, class: "btn btn-dark" %>
+    </div>
 </div>
 
-    <%= link_to "Create a movie list", new_list_path, class: "btn btn-dark" %>
 
-<div class="list-grid m-3">
+<div class="list">
     <% @lists.each do |list| %>
     <%= link_to list_path(list) do %>
       <% if list.photo.attached? %>

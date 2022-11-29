@@ -26,3 +26,8 @@ a {
 .poster img {
   height: 300px;
 }
+
+.poster {
+  display: flex;
+  justify-content: center;
+}
