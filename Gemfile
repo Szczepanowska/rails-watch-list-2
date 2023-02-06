@@ -76,3 +76,5 @@ gem "autoprefixer-rails"
 gem "dotenv-rails", groups: [:development, :test]
 
 gem "cloudinary"
+
+gem 'sinatra', '~> 3.0.5'
